@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function Command() {
   const [lastPrice, setLastPrice] = useState<string>("");
-  const [btcPrice, setBtcPrice] = useState<any>(null); // Change the type to any
+  const [btcPrice, setBtcPrice] = useState<unknown>(null); // Change the type to any
 
   useEffect(() => {
     const fetchData = () => {
