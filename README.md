@@ -1,3 +1,3 @@
 # Binance BTC
 
-Display Binance PERP BTC Last Price
+A raycast extension to display binance btc coin-based perpetual contract price.

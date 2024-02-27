@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "binance-btc",
   "title": "Binance BTC",
-  "description": "Display Binance PERP BTC Last Price",
+  "description": "A raycast extension to display binance btc coin-based perpetual contract price.",
   "icon": "command-icon.png",
   "author": "antx4raycast",
   "categories": [
@@ -13,7 +13,7 @@
     {
       "name": "index",
       "title": "BTC",
-      "description": "Display Binance PERP BTC Last Price",
+      "description": "A raycast extension to display binance btc coin-based perpetual contract price.",
       "mode": "view"
     }
   ],
