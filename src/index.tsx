@@ -12,8 +12,9 @@ export default function Command() {
       fetch(url)
         .then((response) => response.json())
         .then((data) => {
-          const firstElement = data[0]; // Extract the first element from the array
-          const price = parseFloat(firstElement.lastPrice).toFixed(1);
+          const dataArray = Array.isArray(data) ? data : []; // Ensure data is an array
+          const firstElement = dataArray[0]; // Extract the first element from the array
+          const price = parseFloat(firstElement?.lastPrice).toFixed(1); // Use optional chaining to access lastPrice
           const btcPrice = firstElement;
           setLastPrice(price);
           setBtcPrice(btcPrice);
